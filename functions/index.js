@@ -13,7 +13,7 @@ admin.initializeApp( {
 })
 app.use(cookieSession({
   keys: ['ThisIsSecret'],
-  // Cookie Options 
+  // Cookie Options here
   maxAge: 24 * 60 * 60 * 1000 // 24 hours 
 }))
 var db = admin.firestore();
